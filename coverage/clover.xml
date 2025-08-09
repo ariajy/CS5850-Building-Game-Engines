@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1754743251498" clover="3.2.0">
+  <project timestamp="1754743251498" name="All files">
+    <metrics statements="921" coveredstatements="763" conditionals="329" coveredconditionals="225" methods="265" coveredmethods="215" elements="1515" coveredelements="1203" complexity="0" loc="921" ncloc="921" packages="5" files="24" classes="24"/>
+    <package name="UI">
+      <metrics statements="34" coveredstatements="34" conditionals="20" coveredconditionals="15" methods="8" coveredmethods="8"/>
+      <file name="HUD.ts" path="D:\NEU\Game Engine\Final Project\src\UI\HUD.ts">
+        <metrics statements="34" coveredstatements="34" conditionals="20" coveredconditionals="15" methods="8" coveredmethods="8"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="13" count="143" type="stmt"/>
+        <line num="14" count="143" type="stmt"/>
+        <line num="15" count="143" type="stmt"/>
+        <line num="17" count="143" type="stmt"/>
+        <line num="18" count="139" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="118" type="stmt"/>
+        <line num="24" count="143" type="stmt"/>
+        <line num="25" count="141" type="stmt"/>
+        <line num="27" count="141" type="stmt"/>
+        <line num="34" count="139" type="stmt"/>
+        <line num="35" count="104" type="stmt"/>
+        <line num="36" count="104" type="stmt"/>
+        <line num="38" count="104" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="51" type="stmt"/>
+        <line num="40" count="53" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="11" type="stmt"/>
+        <line num="42" count="11" type="stmt"/>
+        <line num="48" count="118" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="118" type="stmt"/>
+        <line num="58" count="52" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="52" type="stmt"/>
+        <line num="60" count="52" type="stmt"/>
+        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="69" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="118" type="stmt"/>
+        <line num="78" count="170" type="cond" truecount="3" falsecount="1"/>
+        <line num="80" count="170" type="cond" truecount="2" falsecount="0"/>
+        <line num="81" count="28" type="stmt"/>
+        <line num="82" count="28" type="stmt"/>
+        <line num="84" count="141" type="stmt"/>
+        <line num="85" count="141" type="stmt"/>
+      </file>
+    </package>
+    <package name="ecs">
+      <metrics statements="82" coveredstatements="82" conditionals="26" coveredconditionals="26" methods="37" coveredmethods="37"/>
+      <file name="ComponentManager.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\ComponentManager.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="8"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="32" type="stmt"/>
+        <line num="8" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="32" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="15" count="1139" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="34" type="stmt"/>
+        <line num="18" count="1139" type="stmt"/>
+        <line num="22" count="107" type="stmt"/>
+        <line num="23" count="107" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="106" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="26" type="stmt"/>
+        <line num="31" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="206" type="stmt"/>
+        <line num="36" count="206" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="41" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+      </file>
+      <file name="DataManager.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\DataManager.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="23" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="68" count="9" type="stmt"/>
+        <line num="72" count="6" type="stmt"/>
+        <line num="76" count="31" type="stmt"/>
+        <line num="80" count="16" type="stmt"/>
+      </file>
+      <file name="EntityManager.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\EntityManager.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="39" type="stmt"/>
+        <line num="9" count="39" type="stmt"/>
+        <line num="14" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="39" type="stmt"/>
+        <line num="17" count="45" type="stmt"/>
+        <line num="21" count="1135" type="stmt"/>
+        <line num="22" count="1135" type="stmt"/>
+        <line num="26" count="1135" type="stmt"/>
+        <line num="27" count="1135" type="stmt"/>
+        <line num="31" count="17" type="stmt"/>
+        <line num="35" count="106" type="stmt"/>
+        <line num="39" count="20" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="47" count="208" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="52" count="8" type="stmt"/>
+        <line num="53" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="5" type="stmt"/>
+        <line num="58" count="8" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+        <line num="63" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="64" count="9" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+      </file>
+      <file name="GameManager.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\GameManager.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="14" count="34" type="stmt"/>
+        <line num="15" count="33" type="stmt"/>
+        <line num="16" count="33" type="stmt"/>
+        <line num="17" count="33" type="stmt"/>
+        <line num="21" count="1142" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="34" type="stmt"/>
+        <line num="24" count="1141" type="stmt"/>
+        <line num="28" count="1116" type="stmt"/>
+      </file>
+      <file name="SystemManager.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\SystemManager.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="26" type="stmt"/>
+        <line num="5" count="26" type="stmt"/>
+        <line num="7" count="35" type="stmt"/>
+        <line num="12" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="35" type="stmt"/>
+        <line num="15" count="39" type="stmt"/>
+        <line num="19" count="191" type="stmt"/>
+        <line num="23" count="56" type="stmt"/>
+        <line num="27" count="120" type="stmt"/>
+        <line num="31" count="1015" type="stmt"/>
+        <line num="32" count="119" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="ecs.entities">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Customer.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\entities\Customer.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2135" type="stmt"/>
+        <line num="10" count="2135" type="stmt"/>
+        <line num="15" count="2135" type="stmt"/>
+        <line num="20" count="2135" type="stmt"/>
+        <line num="28" count="2133" type="stmt"/>
+        <line num="33" count="2133" type="stmt"/>
+        <line num="37" count="2133" type="stmt"/>
+      </file>
+    </package>
+    <package name="ecs.systems">
+      <metrics statements="569" coveredstatements="494" conditionals="232" coveredconditionals="168" methods="169" coveredmethods="148"/>
+      <file name="AnimationSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\AnimationSystem.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="58" type="stmt"/>
+        <line num="8" count="58" type="stmt"/>
+        <line num="16" count="1220" type="stmt"/>
+        <line num="27" count="116" type="stmt"/>
+        <line num="38" count="114" type="stmt"/>
+        <line num="39" count="112" type="stmt"/>
+        <line num="48" count="116" type="stmt"/>
+      </file>
+      <file name="AudioSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\AudioSystem.ts">
+        <metrics statements="61" coveredstatements="44" conditionals="25" coveredconditionals="13" methods="23" coveredmethods="18"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="27" type="stmt"/>
+        <line num="7" count="27" type="stmt"/>
+        <line num="8" count="27" type="stmt"/>
+        <line num="9" count="27" type="stmt"/>
+        <line num="12" count="27" type="stmt"/>
+        <line num="13" count="27" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="40" count="21" type="stmt"/>
+        <line num="46" count="19" type="stmt"/>
+        <line num="47" count="19" type="stmt"/>
+        <line num="48" count="19" type="stmt"/>
+        <line num="49" count="19" type="stmt"/>
+        <line num="50" count="19" type="stmt"/>
+        <line num="57" count="2" type="cond" truecount="4" falsecount="1"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="66" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="111" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="113" count="7" type="stmt"/>
+        <line num="114" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="115" count="5" type="stmt"/>
+        <line num="123" count="7" type="stmt"/>
+        <line num="125" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="126" count="5" type="stmt"/>
+        <line num="127" count="5" type="stmt"/>
+        <line num="128" count="20" type="cond" truecount="1" falsecount="1"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="133" count="2" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="142" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="147" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="156" count="2" type="stmt"/>
+        <line num="157" count="2" type="stmt"/>
+        <line num="158" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="168" count="2" type="stmt"/>
+        <line num="175" count="3" type="stmt"/>
+        <line num="182" count="4" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="191" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="202" count="0" type="stmt"/>
+        <line num="203" count="0" type="stmt"/>
+      </file>
+      <file name="CustomerSpawnSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\CustomerSpawnSystem.ts">
+        <metrics statements="34" coveredstatements="26" conditionals="17" coveredconditionals="5" methods="8" coveredmethods="5"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="49" type="stmt"/>
+        <line num="8" count="49" type="stmt"/>
+        <line num="11" count="49" type="stmt"/>
+        <line num="41" count="49" type="stmt"/>
+        <line num="63" count="49" type="stmt"/>
+        <line num="71" count="49" type="stmt"/>
+        <line num="72" count="49" type="stmt"/>
+        <line num="74" count="49" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="82" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="86" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="97" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="143" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="144" count="2" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="149" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="151" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="156" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="158" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="162" count="0" type="stmt"/>
+      </file>
+      <file name="DebugSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\DebugSystem.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="82" type="stmt"/>
+        <line num="7" count="82" type="stmt"/>
+        <line num="10" count="82" type="stmt"/>
+        <line num="11" count="82" type="stmt"/>
+        <line num="13" count="82" type="stmt"/>
+        <line num="17" count="242" type="stmt"/>
+        <line num="19" count="242" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="177" type="stmt"/>
+        <line num="21" count="177" type="stmt"/>
+        <line num="26" count="177" type="stmt"/>
+        <line num="29" count="176" type="stmt"/>
+        <line num="30" count="175" type="stmt"/>
+        <line num="31" count="175" type="stmt"/>
+        <line num="34" count="173" type="stmt"/>
+        <line num="35" count="172" type="stmt"/>
+        <line num="38" count="172" type="stmt"/>
+        <line num="39" count="111" type="stmt"/>
+        <line num="40" count="111" type="stmt"/>
+        <line num="41" count="1012" type="stmt"/>
+        <line num="45" count="172" type="stmt"/>
+      </file>
+      <file name="DragSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\DragSystem.ts">
+        <metrics statements="72" coveredstatements="34" conditionals="42" coveredconditionals="19" methods="10" coveredmethods="7"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="9" count="38" type="stmt"/>
+        <line num="12" count="38" type="stmt"/>
+        <line num="13" count="38" type="stmt"/>
+        <line num="14" count="38" type="stmt"/>
+        <line num="15" count="38" type="stmt"/>
+        <line num="20" count="38" type="stmt"/>
+        <line num="21" count="37" type="stmt"/>
+        <line num="22" count="37" type="stmt"/>
+        <line num="27" count="17" type="stmt"/>
+        <line num="29" count="16" type="stmt"/>
+        <line num="30" count="1014" type="stmt"/>
+        <line num="31" count="1013" type="cond" truecount="3" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="1010" type="cond" truecount="4" falsecount="0"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="78" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="95" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="107" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="124" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="129" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="144" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="151" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="152" count="0" type="stmt"/>
+      </file>
+      <file name="EconomySystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\EconomySystem.ts">
+        <metrics statements="27" coveredstatements="27" conditionals="12" coveredconditionals="10" methods="10" coveredmethods="10"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="24" type="stmt"/>
+        <line num="6" count="24" type="stmt"/>
+        <line num="7" count="24" type="stmt"/>
+        <line num="8" count="24" type="stmt"/>
+        <line num="11" count="24" type="stmt"/>
+        <line num="12" count="24" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="24" count="15" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="28" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="39" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="7" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="44" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="69" count="4" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+      </file>
+      <file name="ExpiredEntitySystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\ExpiredEntitySystem.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="40" type="stmt"/>
+        <line num="8" count="40" type="stmt"/>
+        <line num="9" count="40" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="18" count="1134" type="stmt"/>
+        <line num="20" count="1133" type="stmt"/>
+        <line num="21" count="2239" type="stmt"/>
+        <line num="22" count="2238" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="2236" type="stmt"/>
+        <line num="26" count="2236" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="221" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="215" type="stmt"/>
+      </file>
+      <file name="GameStateSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\GameStateSystem.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="35" type="stmt"/>
+        <line num="12" count="35" type="stmt"/>
+        <line num="15" count="35" type="stmt"/>
+        <line num="22" count="1143" type="stmt"/>
+        <line num="26" count="12059" type="stmt"/>
+        <line num="27" count="12059" type="stmt"/>
+        <line num="31" count="1015" type="stmt"/>
+        <line num="35" count="11056" type="stmt"/>
+        <line num="39" count="11064" type="stmt"/>
+      </file>
+      <file name="InputSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\InputSystem.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="48" type="stmt"/>
+        <line num="12" count="48" type="stmt"/>
+        <line num="13" count="48" type="stmt"/>
+        <line num="14" count="48" type="stmt"/>
+        <line num="15" count="48" type="stmt"/>
+        <line num="23" count="1121" type="stmt"/>
+        <line num="25" count="1013" type="stmt"/>
+        <line num="26" count="1010" type="stmt"/>
+        <line num="31" count="18" type="stmt"/>
+        <line num="33" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="35" count="12" type="stmt"/>
+        <line num="36" count="11" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="45" count="15" type="stmt"/>
+      </file>
+      <file name="InventorySystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\InventorySystem.ts">
+        <metrics statements="22" coveredstatements="21" conditionals="19" coveredconditionals="14" methods="10" coveredmethods="10"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="9" count="29" type="stmt"/>
+        <line num="10" count="29" type="stmt"/>
+        <line num="11" count="29" type="stmt"/>
+        <line num="18" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="45" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="9" type="stmt"/>
+        <line num="56" count="9" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+      </file>
+      <file name="OrderSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\OrderSystem.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="17" count="86" type="stmt"/>
+        <line num="18" count="86" type="stmt"/>
+        <line num="19" count="86" type="stmt"/>
+        <line num="23" count="215" type="stmt"/>
+        <line num="25" count="215" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="214" type="stmt"/>
+        <line num="30" count="214" type="stmt"/>
+        <line num="32" count="214" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="213" type="stmt"/>
+        <line num="38" count="213" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="212" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="210" type="stmt"/>
+        <line num="41" count="210" type="stmt"/>
+        <line num="42" count="210" type="stmt"/>
+        <line num="43" count="210" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+      <file name="PhysicsSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\PhysicsSystem.ts">
+        <metrics statements="43" coveredstatements="39" conditionals="2" coveredconditionals="2" methods="17" coveredmethods="14"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="40" type="stmt"/>
+        <line num="7" count="40" type="stmt"/>
+        <line num="8" count="40" type="stmt"/>
+        <line num="11" count="40" type="stmt"/>
+        <line num="12" count="40" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="18" count="14" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="24" count="18" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="32" count="15" type="stmt"/>
+        <line num="44" count="15" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="68" count="15" type="stmt"/>
+        <line num="76" count="15" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="89" count="18" type="stmt"/>
+        <line num="92" count="18" type="stmt"/>
+        <line num="93" count="18" type="stmt"/>
+        <line num="94" count="18" type="stmt"/>
+        <line num="95" count="18" type="stmt"/>
+        <line num="97" count="18" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="109" count="3" type="stmt"/>
+        <line num="114" count="3" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="131" count="10" type="stmt"/>
+        <line num="132" count="10" type="stmt"/>
+        <line num="137" count="5" type="stmt"/>
+        <line num="142" count="4" type="stmt"/>
+        <line num="153" count="7" type="stmt"/>
+        <line num="154" count="7" type="stmt"/>
+        <line num="155" count="7" type="stmt"/>
+        <line num="157" count="7" type="stmt"/>
+        <line num="165" count="1" type="stmt"/>
+        <line num="175" count="6" type="stmt"/>
+      </file>
+      <file name="RenderSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\RenderSystem.ts">
+        <metrics statements="84" coveredstatements="84" conditionals="34" coveredconditionals="32" methods="20" coveredmethods="20"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="48" type="stmt"/>
+        <line num="9" count="48" type="stmt"/>
+        <line num="10" count="48" type="stmt"/>
+        <line num="11" count="48" type="stmt"/>
+        <line num="14" count="48" type="stmt"/>
+        <line num="15" count="48" type="stmt"/>
+        <line num="16" count="48" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="22" count="17" type="stmt"/>
+        <line num="24" count="17" type="stmt"/>
+        <line num="25" count="26" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="22" type="stmt"/>
+        <line num="32" count="17" type="stmt"/>
+        <line num="33" count="17" type="stmt"/>
+        <line num="35" count="17" type="stmt"/>
+        <line num="36" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="23" type="stmt"/>
+        <line num="41" count="17" type="stmt"/>
+        <line num="42" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="49" count="17" type="stmt"/>
+        <line num="53" count="20" type="stmt"/>
+        <line num="54" count="7" type="stmt"/>
+        <line num="57" count="20" type="stmt"/>
+        <line num="59" count="20" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="61" count="6" type="stmt"/>
+        <line num="62" count="6" type="stmt"/>
+        <line num="64" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="83" count="5" type="stmt"/>
+        <line num="85" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="92" count="4" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="101" count="3" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="111" count="22" type="stmt"/>
+        <line num="112" count="22" type="stmt"/>
+        <line num="113" count="22" type="stmt"/>
+        <line num="115" count="22" type="cond" truecount="5" falsecount="0"/>
+        <line num="117" count="19" type="stmt"/>
+        <line num="118" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="119" count="14" type="stmt"/>
+        <line num="120" count="14" type="stmt"/>
+        <line num="123" count="19" type="stmt"/>
+        <line num="124" count="19" type="stmt"/>
+        <line num="126" count="19" type="stmt"/>
+        <line num="127" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="128" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="130" count="14" type="stmt"/>
+        <line num="147" count="14" type="stmt"/>
+        <line num="155" count="14" type="stmt"/>
+        <line num="160" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="161" count="4" type="stmt"/>
+        <line num="162" count="4" type="stmt"/>
+        <line num="165" count="19" type="stmt"/>
+        <line num="171" count="19" type="stmt"/>
+        <line num="176" count="19" type="stmt"/>
+        <line num="178" count="19" type="stmt"/>
+        <line num="195" count="18" type="stmt"/>
+        <line num="197" count="18" type="stmt"/>
+        <line num="204" count="3" type="stmt"/>
+        <line num="205" count="2" type="stmt"/>
+        <line num="212" count="1" type="stmt"/>
+        <line num="213" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="214" count="1" type="stmt"/>
+        <line num="224" count="1" type="stmt"/>
+        <line num="228" count="1" type="stmt"/>
+        <line num="232" count="1" type="stmt"/>
+        <line num="236" count="1" type="stmt"/>
+      </file>
+      <file name="SellSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\SellSystem.ts">
+        <metrics statements="92" coveredstatements="86" conditionals="47" coveredconditionals="39" methods="21" coveredmethods="15"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="16" count="56" type="stmt"/>
+        <line num="29" count="56" type="stmt"/>
+        <line num="30" count="56" type="stmt"/>
+        <line num="31" count="56" type="stmt"/>
+        <line num="32" count="56" type="stmt"/>
+        <line num="33" count="56" type="stmt"/>
+        <line num="35" count="56" type="stmt"/>
+        <line num="39" count="56" type="stmt"/>
+        <line num="43" count="57" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="49" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="52" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="66" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="73" count="17" type="cond" truecount="4" falsecount="0"/>
+        <line num="80" count="12" type="stmt"/>
+        <line num="82" count="12" type="stmt"/>
+        <line num="83" count="12" type="stmt"/>
+        <line num="84" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="11" type="stmt"/>
+        <line num="87" count="11" type="cond" truecount="5" falsecount="0"/>
+        <line num="88" count="5" type="stmt"/>
+        <line num="92" count="7" type="stmt"/>
+        <line num="96" count="5" type="stmt"/>
+        <line num="98" count="5" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="100" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="103" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="104" count="2" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="112" count="4" type="stmt"/>
+        <line num="120" count="4" type="stmt"/>
+        <line num="121" count="4" type="stmt"/>
+        <line num="123" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="124" count="4" type="stmt"/>
+        <line num="127" count="4" type="stmt"/>
+        <line num="129" count="4" type="stmt"/>
+        <line num="131" count="4" type="stmt"/>
+        <line num="135" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="137" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="143" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="144" count="1" type="stmt"/>
+        <line num="145" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="146" count="1" type="stmt"/>
+        <line num="148" count="1" type="stmt"/>
+        <line num="151" count="9" type="stmt"/>
+        <line num="152" count="9" type="stmt"/>
+        <line num="154" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="155" count="9" type="stmt"/>
+        <line num="158" count="8" type="stmt"/>
+        <line num="160" count="8" type="stmt"/>
+        <line num="161" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="162" count="7" type="stmt"/>
+        <line num="163" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="164" count="7" type="stmt"/>
+        <line num="168" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="169" count="8" type="stmt"/>
+        <line num="172" count="8" type="stmt"/>
+        <line num="174" count="8" type="stmt"/>
+        <line num="178" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="179" count="7" type="stmt"/>
+        <line num="184" count="7" type="stmt"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="196" count="4" type="stmt"/>
+        <line num="205" count="4" type="stmt"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="217" count="0" type="stmt"/>
+        <line num="225" count="12" type="stmt"/>
+        <line num="226" count="12" type="stmt"/>
+        <line num="228" count="12" type="stmt"/>
+        <line num="236" count="12" type="stmt"/>
+        <line num="239" count="12" type="stmt"/>
+        <line num="248" count="1" type="stmt"/>
+        <line num="254" count="0" type="stmt"/>
+        <line num="259" count="12" type="stmt"/>
+        <line num="267" count="0" type="stmt"/>
+        <line num="274" count="0" type="stmt"/>
+      </file>
+      <file name="SynthesisSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\SynthesisSystem.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="20" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="16" count="1116" type="stmt"/>
+        <line num="17" count="2123" type="stmt"/>
+        <line num="22" count="105" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="104" type="stmt"/>
+        <line num="27" count="109" type="stmt"/>
+        <line num="29" count="104" type="stmt"/>
+        <line num="30" count="104" type="stmt"/>
+      </file>
+      <file name="UIEventSystem.ts" path="D:\NEU\Game Engine\Final Project\src\ecs\systems\UIEventSystem.ts">
+        <metrics statements="21" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="10"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="scenes">
+      <metrics statements="227" coveredstatements="144" conditionals="51" coveredconditionals="16" methods="50" coveredmethods="21"/>
+      <file name="ShopScene.ts" path="D:\NEU\Game Engine\Final Project\src\scenes\ShopScene.ts">
+        <metrics statements="227" coveredstatements="144" conditionals="51" coveredconditionals="16" methods="50" coveredmethods="21"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="70" type="stmt"/>
+        <line num="25" count="70" type="stmt"/>
+        <line num="26" count="70" type="stmt"/>
+        <line num="28" count="70" type="stmt"/>
+        <line num="29" count="70" type="stmt"/>
+        <line num="32" count="70" type="stmt"/>
+        <line num="37" count="26" type="stmt"/>
+        <line num="38" count="26" type="stmt"/>
+        <line num="41" count="26" type="stmt"/>
+        <line num="42" count="26" type="stmt"/>
+        <line num="43" count="26" type="stmt"/>
+        <line num="46" count="26" type="stmt"/>
+        <line num="47" count="25" type="stmt"/>
+        <line num="48" count="24" type="stmt"/>
+        <line num="49" count="67" type="stmt"/>
+        <line num="53" count="24" type="stmt"/>
+        <line num="54" count="24" type="stmt"/>
+        <line num="59" count="47" type="stmt"/>
+        <line num="60" count="47" type="stmt"/>
+        <line num="61" count="47" type="stmt"/>
+        <line num="64" count="46" type="stmt"/>
+        <line num="65" count="46" type="stmt"/>
+        <line num="68" count="46" type="stmt"/>
+        <line num="69" count="46" type="stmt"/>
+        <line num="72" count="46" type="stmt"/>
+        <line num="73" count="46" type="stmt"/>
+        <line num="76" count="46" type="stmt"/>
+        <line num="77" count="46" type="stmt"/>
+        <line num="78" count="46" type="stmt"/>
+        <line num="81" count="46" type="stmt"/>
+        <line num="82" count="46" type="stmt"/>
+        <line num="85" count="46" type="stmt"/>
+        <line num="86" count="46" type="stmt"/>
+        <line num="89" count="46" type="stmt"/>
+        <line num="92" count="46" type="stmt"/>
+        <line num="93" count="46" type="stmt"/>
+        <line num="96" count="46" type="stmt"/>
+        <line num="97" count="46" type="stmt"/>
+        <line num="98" count="46" type="stmt"/>
+        <line num="99" count="46" type="stmt"/>
+        <line num="102" count="46" type="stmt"/>
+        <line num="107" count="46" type="stmt"/>
+        <line num="110" count="46" type="stmt"/>
+        <line num="114" count="46" type="stmt"/>
+        <line num="117" count="46" type="stmt"/>
+        <line num="121" count="46" type="stmt"/>
+        <line num="124" count="46" type="stmt"/>
+        <line num="127" count="46" type="stmt"/>
+        <line num="133" count="46" type="stmt"/>
+        <line num="134" count="46" type="stmt"/>
+        <line num="135" count="46" type="stmt"/>
+        <line num="136" count="46" type="stmt"/>
+        <line num="147" count="46" type="stmt"/>
+        <line num="148" count="46" type="stmt"/>
+        <line num="151" count="46" type="stmt"/>
+        <line num="156" count="46" type="stmt"/>
+        <line num="163" count="46" type="stmt"/>
+        <line num="172" count="46" type="stmt"/>
+        <line num="175" count="46" type="stmt"/>
+        <line num="176" count="138" type="stmt"/>
+        <line num="177" count="138" type="stmt"/>
+        <line num="180" count="138" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="188" count="138" type="stmt"/>
+        <line num="194" count="138" type="stmt"/>
+        <line num="207" count="2" type="stmt"/>
+        <line num="210" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="211" count="0" type="stmt"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="217" count="2" type="stmt"/>
+        <line num="220" count="2" type="stmt"/>
+        <line num="222" count="2" type="stmt"/>
+        <line num="229" count="2" type="stmt"/>
+        <line num="230" count="2" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="241" count="0" type="stmt"/>
+        <line num="244" count="0" type="stmt"/>
+        <line num="249" count="0" type="stmt"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="251" count="0" type="stmt"/>
+        <line num="261" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="263" count="2" type="stmt"/>
+        <line num="265" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="266" count="0" type="stmt"/>
+        <line num="267" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="268" count="2" type="stmt"/>
+        <line num="269" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="278" count="1" type="stmt"/>
+        <line num="281" count="1" type="stmt"/>
+        <line num="282" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="284" count="0" type="stmt"/>
+        <line num="289" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="290" count="0" type="stmt"/>
+        <line num="299" count="0" type="stmt"/>
+        <line num="300" count="0" type="stmt"/>
+        <line num="308" count="1" type="stmt"/>
+        <line num="311" count="1" type="stmt"/>
+        <line num="314" count="1" type="stmt"/>
+        <line num="321" count="1" type="stmt"/>
+        <line num="322" count="1" type="stmt"/>
+        <line num="331" count="3" type="stmt"/>
+        <line num="333" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="343" count="0" type="stmt"/>
+        <line num="346" count="0" type="stmt"/>
+        <line num="347" count="0" type="stmt"/>
+        <line num="348" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="349" count="0" type="stmt"/>
+        <line num="354" count="0" type="stmt"/>
+        <line num="357" count="0" type="stmt"/>
+        <line num="360" count="0" type="stmt"/>
+        <line num="362" count="0" type="stmt"/>
+        <line num="369" count="0" type="stmt"/>
+        <line num="370" count="0" type="stmt"/>
+        <line num="375" count="0" type="stmt"/>
+        <line num="376" count="0" type="stmt"/>
+        <line num="380" count="5" type="stmt"/>
+        <line num="386" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="390" count="0" type="stmt"/>
+        <line num="392" count="0" type="stmt"/>
+        <line num="398" count="0" type="stmt"/>
+        <line num="399" count="0" type="stmt"/>
+        <line num="401" count="0" type="stmt"/>
+        <line num="406" count="0" type="stmt"/>
+        <line num="408" count="0" type="stmt"/>
+        <line num="409" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="413" count="0" type="stmt"/>
+        <line num="418" count="0" type="stmt"/>
+        <line num="422" count="0" type="stmt"/>
+        <line num="442" count="0" type="stmt"/>
+        <line num="443" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="444" count="0" type="stmt"/>
+        <line num="447" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="448" count="0" type="stmt"/>
+        <line num="449" count="0" type="stmt"/>
+        <line num="453" count="0" type="stmt"/>
+        <line num="460" count="0" type="stmt"/>
+        <line num="465" count="0" type="stmt"/>
+        <line num="467" count="0" type="stmt"/>
+        <line num="476" count="0" type="stmt"/>
+        <line num="478" count="0" type="stmt"/>
+        <line num="485" count="0" type="stmt"/>
+        <line num="486" count="0" type="stmt"/>
+        <line num="491" count="0" type="stmt"/>
+        <line num="492" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="493" count="0" type="stmt"/>
+        <line num="508" count="46" type="stmt"/>
+        <line num="512" count="46" type="stmt"/>
+        <line num="519" count="46" type="stmt"/>
+        <line num="532" count="1" type="stmt"/>
+        <line num="533" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="536" count="1" type="stmt"/>
+        <line num="537" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="540" count="1" type="stmt"/>
+        <line num="541" count="0" type="stmt"/>
+        <line num="542" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="543" count="0" type="stmt"/>
+        <line num="546" count="1" type="stmt"/>
+        <line num="547" count="1" type="stmt"/>
+        <line num="548" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="549" count="0" type="stmt"/>
+        <line num="553" count="1" type="stmt"/>
+        <line num="555" count="1" type="stmt"/>
+        <line num="556" count="1" type="stmt"/>
+        <line num="558" count="1" type="stmt"/>
+        <line num="559" count="1" type="stmt"/>
+        <line num="561" count="1" type="stmt"/>
+        <line num="562" count="1" type="stmt"/>
+        <line num="568" count="1" type="stmt"/>
+        <line num="573" count="1" type="stmt"/>
+        <line num="582" count="1" type="stmt"/>
+        <line num="586" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="587" count="1" type="stmt"/>
+        <line num="589" count="1" type="stmt"/>
+        <line num="591" count="1" type="stmt"/>
+        <line num="593" count="1" type="stmt"/>
+        <line num="602" count="1" type="stmt"/>
+        <line num="603" count="1" type="stmt"/>
+        <line num="604" count="1" type="stmt"/>
+        <line num="613" count="1" type="stmt"/>
+        <line num="625" count="1" type="stmt"/>
+        <line num="636" count="1" type="stmt"/>
+        <line num="649" count="1" type="stmt"/>
+        <line num="660" count="46" type="stmt"/>
+        <line num="669" count="46" type="stmt"/>
+        <line num="681" count="46" type="stmt"/>
+        <line num="699" count="46" type="stmt"/>
+        <line num="709" count="0" type="stmt"/>
+        <line num="710" count="0" type="stmt"/>
+        <line num="713" count="0" type="stmt"/>
+        <line num="714" count="0" type="stmt"/>
+        <line num="717" count="0" type="stmt"/>
+        <line num="718" count="0" type="stmt"/>
+        <line num="721" count="46" type="stmt"/>
+        <line num="733" count="46" type="stmt"/>
+        <line num="742" count="46" type="stmt"/>
+        <line num="754" count="0" type="stmt"/>
+        <line num="756" count="0" type="stmt"/>
+        <line num="757" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="758" count="0" type="stmt"/>
+        <line num="764" count="0" type="stmt"/>
+        <line num="766" count="0" type="stmt"/>
+        <line num="767" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="768" count="0" type="stmt"/>
+        <line num="771" count="0" type="stmt"/>
+        <line num="773" count="0" type="stmt"/>
+        <line num="775" count="0" type="stmt"/>
+        <line num="779" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
