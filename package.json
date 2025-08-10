@@ -53,7 +53,9 @@
     "build": "webpack --mode development",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -61,6 +63,8 @@
   "description": "",
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "jest": "^30.0.5",
     "ts-jest": "^29.4.1",
